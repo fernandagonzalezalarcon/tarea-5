@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea5</title>
+    <script src="./scripts.js" type="module"></script>
+    <style>
+   
+        body {
+		        font-family: "Helvetica Neue", Helvetica, sans-serif;
+		        font-size: 13px;
+                background-color: rgb(255, 251, 228);
+        }
+        .barras rect{
+            fill: #ff0066;
+            opacity: .8;
+        }
+
+        .barras rect:hover{
+            opacity: 1;
+        }
+   
+    </style>
+</head>
+<body>
+    <svg width = 1000 height = 900>
+        <g class = "barras" transform="translate(200, 120)"></g>
+        <g class = "labels" ></g>
+        <g class = "axis-x" transform="translate(600, 50)"></g>
+        <g class = "axis-y"></g>
+        <g class = "titulo"></g>
+    </svg>
+</body>
+</html>
